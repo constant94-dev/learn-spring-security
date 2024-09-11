@@ -1,0 +1,8 @@
+### ssia-ch2-ex1
+# @no-cookie-jar
+# curl -X GET --location "http://localhost:8080/hello"
+#    --basic --user user:579763f3-0182-45a2-a4d0-71e49d7338cf
+GET {{host}}:{{port}}/hello
+Authorization: Basic {{username}} {{password}}
+
+###
